@@ -11,6 +11,13 @@
 
 </head>
 <body>
-    <h1>ciao sono template di laravel <i class="fa-brands fa-laravel"></i> con boostrap <i class="fa-brands fa-bootstrap"></i> e fontawesome <i class="fa-solid fa-font-awesome"></i></h1>
+
+    <main>
+
+        @yield('content')
+        
+    </main>
+    
+
 </body>
 </html>
